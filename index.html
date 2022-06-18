@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
+    <link rel="stylesheet" href="./index.css" />
+    <!--  -->
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="heading">Hotstar 1</h1>
+    <div id="movies" class="contain"></div>
+    <div id="searchBar">
+      <input
+        oninput="debounceFunction(main,1000)"
+        placeholder="Enter movie name"
+        type="text"
+        id="query"
+      />
+      <!-- <input type="text" placeholder="Enter movie name" id="input" /> -->
+      <button onclick="searchMovie()">Search</button>
+    </div>
+    <div id="displayDiv"></div>
+
+
+    <!-- <div class="box"> -->
+      <!-- <div class="boxImg"><img src="" alt=""></div>
+      <div class="boxP"><p></p></div> -->
+    <!-- </div> -->
+  </body>
+</html>
+
+<script src="./index.js"></script>
+
+<!-- <script>
+  var container = document.querySelector(".contain");
+
+  var query = document.querySelector("#query");
+  query.addEventListener("click", queryFn);
+
+  function queryFn() {
+    //     console.log('s')
+    container.classList.toggle("contain-height");
+  }
+</script> -->

@@ -1,0 +1,106 @@
+/* Start -- FROM MOVIE APP */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  /* background-color: white; */
+  color: white;
+}
+h1 {
+  margin-top: 30px;
+  cursor: pointer;
+
+  text-align: center;
+}
+#searchBar {
+  margin-top: 30px;
+  text-align: center;
+}
+input {
+  border: none;
+  border: 1px solid white;
+}
+button {
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
+  font-weight: 600;
+}
+#movieData {
+  width: 60%;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 45px;
+}
+#searchedMovie {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+#displayDiv {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* End -- FROM MOVIE APP */
+
+input {
+  width: 400px;
+}
+#movies {
+  width: 400px;
+  height: 200px;
+  /* border: 2px solid white; */
+  /* border-top: none; */
+  overflow: scroll;
+  scrollbar-width: none;
+}
+/* making the scroll bar hidden */
+#movies::-webkit-scrollbar {
+  display: none;
+}
+.contain {
+  position: absolute;
+  width: 600px;
+  background: #fff;
+  overflow: hidden;
+  border: none;
+  top: 120px;
+  right: 595px;
+  max-height: 0px;
+  transition: max-height 0.7s;
+  z-index: 20;
+  background-color: black;
+}
+.contain-height {
+  max-height: 200px;
+  border: 1px white solid;
+}
+/* Dropdown box */
+.box {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  border-bottom: 0.5px solid rgb(197, 185, 185);
+}
+.boxImg {
+  width: 60px;
+}
+.boxP {
+  font-size: 20px;
+  margin-left: 10px;
+}
