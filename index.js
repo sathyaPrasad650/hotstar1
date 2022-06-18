@@ -138,7 +138,7 @@ async function searchMovies(query) {
 
     // SearchResult-url -> http://www.omdbapi.com/?s=avengers&apikey=983f5710
 
-    let url = `http://www.omdbapi.com/?s=${query}&apikey=983f5710`;
+    let url = `https://www.omdbapi.com/?s=${query}&apikey=983f5710`;
 
     try {
         let res = await fetch(url);
